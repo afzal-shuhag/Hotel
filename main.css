@@ -1,0 +1,881 @@
+/* Common CSS Start*/
+*{
+	margin:0;
+	padding:0;
+	outline: 0;
+}
+@font-face {
+  font-family: myFont;
+  src: url(Solway-Regular.ttf);
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: myFont;
+}
+#active a{
+	color:green;
+}
+body{
+	font-family:arial;
+}
+.full{
+	width:100%;
+}
+.wrapper{
+	width:1200px;
+	margin:0 auto;
+}
+.clear{
+	overflow:hidden;
+}
+/* Common CSS End*/
+
+/* header CSS Start*/
+.head_section_bg{
+	background: #383633;
+}
+.head_section{
+	padding:15px 0px;
+}
+.logo{
+	width:500px;
+	float:left;
+}
+.logo img{
+	float:left;
+	width:100px;
+	margin-right:25px;
+}
+.logo h2{
+	float:left;
+	color:#EA9441;
+	margin-top:35px;
+	font-size: 32px;
+	font-weight:normal;
+	text-transform: uppercase;
+}
+.time{
+	width:500px;
+	float:right;
+	padding:15px 0px;
+	border-top:1px solid #484643;
+}
+.time ul{
+	list-style: none;
+
+}
+.time ul li{
+	display:inline-block;
+	margin-right:10px;
+}
+.time ul li span{
+	display:block;
+	color:#EADAC6;
+}
+.time_heading{
+	color:#AEA340;
+}
+.clock {
+	color: #FFFF;
+	font-size: 18px;
+	font-family: arial;
+	letter-spacing: 3px;
+}
+.call{
+	font-size: 23px;
+
+padding: 5px;
+}
+/* Header CSS End*/
+
+/* Menu CSS Start*/
+.menu_bg{
+	background: #CCA353;
+}
+.menu{
+	width:1000px;
+	margin:0 auto;
+}
+.menu ul{
+	list-style-type:none;
+}
+.menu ul li{
+	display:inline-block;
+	border-right:1px solid #EDFADE;
+	margin:20px 0px;
+}
+.menu ul li:last-child{
+	border-right:0px;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding:0px 16px;
+	display:block;
+	color:#EDFADE;
+	font-size: 14px;
+}
+/* Menu CSS End*/
+
+/*.banner_section_bg{
+	background:url(images/banner.jpg);
+	background-size:cover;
+	background-position:center;
+	height:620px;
+	position:relative;
+	z-index:2;
+}
+.banner_section_bg:before{
+	content: "";
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:#333;
+	opacity:0.7;
+	z-index:-1;
+}*/
+
+/* All Pages Banner CSS Start*/
+.banner_section{
+	width:100%;
+	
+	
+}
+/*.banner_logo{
+	width:200px;
+	margin:0 auto;
+}*/
+.banner_section img {
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+/*.banner_section h1{
+	text-align: center;
+	color:#ffff;
+	text-transform: uppercase;
+}*/
+.w3-display-left {
+	position: absolute;
+	top: 450px;
+	left: 0%;
+	transform: translate(0%,-50%);
+	-ms-transform: translate(-0%,-50%);
+}
+.w3-display-left {
+	position: absolute;
+	top: 425px;
+	left: 0%;
+	transform: translate(0%,-50%);
+	-ms-transform: translate(-0%,-50%);
+	padding: 10px 15px;
+	background: black;
+	opacity: 0.6;
+	color: white;
+}
+.w3-display-right {
+	position: absolute;
+	top: 425px;
+	right: 0%;
+	transform: translate(0%,-50%);
+	-ms-transform: translate(-0%,-50%);
+	padding: 10px 15px;
+	background: black;
+	opacity: 0.6;
+	color: white;
+}
+.second_banner_section_bg{
+	background-image: url(images/head-page.jpg);
+	background-size:cover;
+
+	height:350px;
+}
+.second_banner_section{}
+.second_banner_section h1 {
+	color: #fafafa;
+	font-size: 40px;
+	font-weight: normal;
+	margin-top: 8%;
+	margin-left: 4%;
+}
+.booking_form_bg {
+	background-color: #000000;
+	position: absolute;
+	z-index: 9999;
+	margin-top: -128px;
+	opacity: 0.7;
+}
+.booking_form {
+	width: 100%;
+	padding: 44px;
+}
+.booking_form_others{
+	width:100%;
+	padding:41px;
+}
+.booking_form_bg_others{
+	background-color: #000000;
+	position: absolute;
+	z-index: 9999;
+	margin-top: -118px;
+	opacity: 0.7;
+}
+.booking_form ul{
+	width:800px;
+	list-style: none;
+	margin:0 auto;
+}
+.booking_form ul li {
+	display: inline-block;
+	margin-right: 25px;
+	color: #ffff;
+	font-size: 14px;
+	text-align: center;
+}
+.booking_form ul li:last-child{
+	margin-right: 0px;
+}
+.booking_form ul li p{}
+.booking_form ul li input {
+	border-radius: 5px;
+    border: 1px solid aliceblue;
+    width: 117px;
+}
+.booking_form_others ul{
+		width:800px;
+	list-style: none;
+	margin:0 auto;
+}
+.booking_form_others ul li{
+		display: inline-block;
+	margin-right: 10px;
+	color: #ffff;
+	font-size: 14px;
+	text-align: center;
+}
+.booking_form_others ul li p{}
+.booking_form_others ul li input{
+	border-radius: 5px;
+    border: 1px solid aliceblue;
+    width: 130px;
+}
+.booking_form input[type="submit"] {
+	background-color: #CCA353;
+	cursor: pointer;
+	padding: 2px 5px;
+}
+.booking_form_others input[type="submit"] {
+	background-color: #CCA353;
+	cursor: pointer;
+	padding: 2px 5px;
+}
+/* All Pages Banner CSS End*/
+
+/*HomePAge About CSS Start*/
+.about_section_bg{
+	background-color: #FBFAF6;
+}
+.about_section{
+	padding:60px 0px;
+}
+.about_section h2{
+	text-align: center;
+	font-size:28px;
+	color:#8C512D;
+	margin-bottom: 30px;
+}
+.about_section p{
+	text-align: center;
+	color:#333333;
+	font-size:14px;
+	line-height:24px;
+
+}
+/*HomePAge About CSS End*/
+
+/*HomePAge Gallery CSS Start*/
+.luxury_room_section_bg{
+	background-color:#FBFAF6;
+}
+.luxury_room_section{
+	padding:50px 0px;
+}
+.single_luxury_room {
+	width: 360px;
+	float: left;
+	margin-right: 59px;
+	background: #F2F2F2;
+	margin-bottom: 30px;
+	padding-bottom: 25px;
+}
+
+.row1_margin0{
+	margin-right:0px !important;
+}
+.row2_margin0 {
+	margin-right: 0px !important;
+}
+.row3_margin0 {
+	margin-right: 0px !important;
+}
+
+.single_luxury_room img {
+	width: 349px;
+	height: 180px;
+	padding: 4px;
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 30px
+}
+.single_luxury_room h2 {
+	color: #8C512D;
+	padding: 0px 0px 15px 0px;
+	border-bottom: 2px solid #CCA353;
+	margin: 0px 70px 18px 20px;
+}
+.single_luxury_room p {
+	font-size: 14px;
+	margin-left: 20px;
+	word-spacing: 3px;
+	color:#333333;
+}
+
+
+.single_luxury_room:hover{
+	width: 355px;
+	box-shadow: 2px 2px 2px 2px #888888;
+}
+/*HomePAge Gallery CSS Start*/
+
+/*HomePAge Offer CSS Start*/
+.offer_background_bg{
+	background-image: url(images/bg-special.jpg);
+	background-position: center;
+	height: 350px;
+	position:relative;
+	z-index:2;
+}
+.offer_background_bg:before{
+	content: "";
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:#333;
+	opacity:0.5;
+	z-index:-1;
+}
+}
+.offer_background{
+	text-align:center;
+	color:#DAD7D2;
+
+
+}
+.offer_background h2 {
+	font-weight: normal;
+	color: #DCD9D4;
+	text-align: center;
+	margin-top: 12%;
+	padding: 15px 25px;
+	border: 2px solid #CCA353;
+	display: inline-block;
+	margin-left: 40%;
+}
+.offer_background h2:hover{
+	background-color:#AD8F53;
+}
+/*HomePAge Offer CSS End*/
+
+/*HomePAge Services CSS Start*/
+.service_section_summery_bg{
+	background-color: #FBFAF6;
+}
+.service_section_summery{
+	padding: 70px 0px;
+}
+.service_photo{
+	width:500px;
+	float:left;
+	margin-top:5px;
+}
+.service_photo img{
+	width:100%;
+}
+.setvice_summery{
+	width:650px;
+	float:right;
+}
+.setvice_summery h2 {
+	color: #9A5114;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #CCA353;
+	margin-bottom: 30px;
+	margin-right: 300px;
+}
+.setvice_summery p {
+	font-size: 14px;
+	line-height: 24px;
+}
+/*HomePAge Services CSS End*/
+
+/*Lower Menu CSS Start*/
+.lower_section_menu_bg{
+	background-color: #FBFAF6;
+}
+.lower_section_menu{
+	margin:0 auto;
+	width:1000px;
+	margin-bottom: 50px;
+}
+.lower_section_menu ul{
+	list-style-type:none;
+}
+.lower_section_menu ul li{
+	display: inline-block;
+	border-right: 1px solid #783D19;
+}
+.lower_section_menu ul li:last-child{
+	border-right:0px;
+}
+.lower_section_menu ul li a{
+	display:block;
+	display: block;
+	text-decoration: none;
+	color: #783D19;
+	font-size: 16px;
+	padding: 0px 11px;
+	
+}
+/*Lower Menu CSS End*/
+
+/*Lower Contact CSS Start*/
+
+.contact_summery_bg{
+	background-color: #F2F3F4;
+}
+.contact_summery{
+	padding:30px 0px 70px 0px;
+	
+}
+.map{
+	width:590px;
+	float:left;
+}
+.contact_info{
+	width:560px;
+	float:right;
+}
+.contact_info h2 {
+	color: #9A5114;
+	font-weight: normal;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+.contact_info ul{
+	list-style: none;
+}
+.contact_info ul li {
+	color: #A85F22;
+	font-size: 14px;
+	line-height: 25px;
+}
+/*Lower Contact CSS End*/
+
+/*Footer CSS Start*/
+.footer_section_bg{
+	background-color: #63512D;
+}
+.footer_section{
+	padding:20px 5px;
+}
+.footer_section p {
+	font-size: 15px;
+	color: #C3B19F;
+}
+/*Footer CSS End*/
+
+/*Room_Suites page middle section CSS Start*/
+.room_suits_column_bg {
+	background-color: #FFFFFF;
+}
+.room_suits_column {
+	padding: 85px 0px;
+}
+.single_room_suits_column {
+	background: url(images/premier_twin1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 360px;
+	position: relative;
+	z-index: 2;
+	width: 540px;
+	float: left;
+	margin-right: 119px;
+	margin-bottom: 85px;
+	border-top: 5px solid #CCA353;
+}
+.single_room_suits_column:before{
+	content: "";
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:#333;
+	opacity:0.4;
+	z-index:-1;
+}
+.single_room_suits_column:last-child{
+	margin-bottom: 0px;
+}
+.single_room_suits_column_content{
+	width:300px;
+	margin:0 auto;
+	text-align:center;
+	margin-top: 12%;
+}
+.single_room_suits_column_content h3 {
+	color: #EEFCFC;
+	font-weight: normal;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #EEFCFC;
+	margin-bottom: 13px;
+}
+.single_room_suits_column_content h2 {
+	color: #EEFCFC;
+	font-weight: normal;
+	font-size: 29px;
+	padding-bottom: 15px;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #EEFCFC;
+}
+.single_room_suits_column_content a {
+	color: #FBAE5B;
+	letter-spacing: 2px;
+	background-color: #000000;
+	text-decoration: navajowhite;
+	padding: 10px 20px;
+	display: inline-block;
+	border-radius: 10px;
+	border: 1px solid #FBAE5B;
+}
+.room_suits_mar_right{
+	margin-right:0px;
+}
+/*Room_Suites page middle section CSS End*/
+
+/*Our Services page middle section CSS Start*/
+.services_bg{
+	background-color: #FFFFFF;
+}
+.services{
+	padding:85px 0px;
+}
+.single_services_column {
+	width: 290px;
+	float: left;
+	margin-right: 116px;
+	background-color: #F2F2F2;
+	padding: 17px 15px;
+	margin-bottom: 50px;
+	border: 1px solid #C9C9C9;
+	height: 290px;
+}
+.single_services_column_mar_right{
+	margin-right:0px;
+}
+.single_services_column h2 {
+	color: #652D09;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-right: ;
+	font-size: 21px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #CCA353;
+	
+	margin-bottom: 15px;
+}
+.single_services_column ul{
+		list-style: none;
+}
+.single_services_column ul li {
+	font-size: 13px;
+	line-height: 39px;
+}
+.single_services_column ul li span{}
+
+/*Our Services page middle section CSS End*/
+
+/*About Us page middle section CSS Start*/
+.about_us_bg{
+	background-color: #FFFFFF;
+}
+.about_us{}
+.single_about_us {
+	background-color: #F2F2F2;
+	height: 233px;
+	margin-bottom: 60px;
+}
+.about_image{
+	width:350px;
+	float:left;
+
+}
+.about_image img{
+	width:100%;
+}
+.about_content {
+	width: 765px;
+	padding: 30px 35px;
+	float: right;
+}
+.about_content h2 {
+	color: #63512D;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 23px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 3px solid #CCA353;
+	margin-right: 400px;
+}
+.about_content p {
+	font-size: 14px;
+	line-height: 25px;
+}
+/*About Us page middle section CSS End*/
+
+/*Contact page middle section CSS Start*/
+.conact_bg{
+	background-color: #FFFFFF;
+}
+.contact{
+	padding: 100px 0px;
+}
+.contact_address{
+	width:500px;
+	float:left;
+}
+.contact_address ul{
+	list-style: none;
+}
+.contact_address ul li {
+	margin-bottom: 20px;
+}
+.contact_address ul li h4 {
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.contact_address ul li span {
+	font-size: 14px;
+}
+.contact_form{
+	width:600px;
+	float:right;
+}
+.contact_form h2, .contact_address h2 {
+	color: #63512D;
+	font-weight: normal;
+	font-size: 26px;
+	padding-bottom: 15px;
+	margin-bottom: 30px;
+	border-bottom: 3px solid #CCA353;
+	margin-right: 300px;
+}
+.contact_form input {
+	width: 96%;
+	padding: 10px 6px;
+	margin-bottom: 20px;
+	border: 1px solid #CCA353;
+}
+.contact_form textarea {
+	width: 568px;
+	height: 220px;
+	margin-bottom: 30px;
+	padding: 10px 10px;
+	border: 1px solid #CCA353;
+}
+input[type="submit"] {
+	background-color: #CCA353;
+	cursor: pointer;
+	color: white;
+}
+/*Contact page middle section CSS End*/
+
+/*Gallery page Banner section CSS Start*/
+.gallery_page_banner{
+	background-image: url(images/gallerybg.jpg) !important;
+		background-size:cover;
+
+	height:350px;
+}
+/*Gallery page Banner section CSS End*/
+
+/*Gallery page Middle section CSS Start*/
+.gallery_bg{
+	background-color: #FFFFFF;
+}
+.gallery{
+	padding:90px 0px;
+}
+.single_gallery_column {
+	width: 280px;
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 50px;
+	position: relative;
+}
+.single_gallery_column img{
+	width:100%;
+	height: 200px;
+	border-radius: 10px 10px 0px 0px;
+	
+
+}
+.single_gallery_column h2 {
+	background: #CCA353;
+	text-align: center;
+	padding: 8px 0px;
+	font-weight: normal;
+	color: #ffff;
+	font-size: 19px;
+	border-radius: 0px 0px 10px 10px;
+	
+}
+.single_gallery_column_mar_right{
+	margin-right:0px;
+}
+.single_gallery_column::before{
+	position:absolute;
+	content:"";
+    width:100%;
+    height:100%;
+    background:#000;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition:.5s;
+    visibility: hidden;
+    opacity: .5;
+	margin-bottom:0px;
+}
+.single_gallery_column:hover::before{
+	 width: 100%;
+    height: 100%;
+    transform: scale(1);
+    visibility: visible;
+}
+.single_gallery_column a{
+	position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    text-align: center;
+    
+    transform: scale(0);
+    transition:.5s;
+    visibility: hidden;
+    opacity: 0;
+	text-decoration:none;
+	letter-spacing:3px;
+}
+.single_gallery_column a:hover{
+	 margin-top: 50%;
+    left:0;
+    position:absolute;
+    text-align: center;
+    opacity: 1;
+    transform: scale(1);
+    transition: all .5s;
+    visibility: visible;
+    font-size:17px;
+    color: #ffff;
+    z-index: 9999999999;
+}
+/*Gallery page Middle section CSS End*/
+
+/*Meeting page middle section CSS Start*/
+.meeting_bg{
+	background-color: #FFFFFF;
+}
+.meeting{
+	padding:100px 0px;
+}
+.single_meeting_column {
+	width: 580px;
+	float: left;
+	margin-right: 30px;
+	border-radius: 10px;
+	border-bottom: 3px solid #969696;
+}
+.single_meeting_column:hover{
+	  box-shadow: 7px 7px 5px 7px #888888;
+	  width:570px;
+	  margin-right: 25px;
+}
+.single_meeting_column:last-child{
+	margin-right:0px;
+}
+.single_meeting_column img{
+	width:100%;
+}
+.single_meeting_column h2 {
+	color: #63512D;
+	text-transform: uppercase;
+	font-weight: normal;
+	background-color: #DADADA;
+	padding: 28px 20px;
+}
+/*Meeting page middle section CSS End*/
+
+/*Grand Hall page middle section CSS Start*/
+.grand_hall_bg{
+	background-color: #FFFFFF;
+}
+.grand_hall{
+	padding:85px 0px;
+}
+.single_grand_hall_column_left{
+	width:565px;
+	float:left;
+	margin-right:30px;
+}
+.single_grand_hall_column_left img{
+	width:100%;
+}
+.single_grand_hall_column_right{
+	width:605px;
+	float:right;
+}
+.single_grand_hall_column_right h2 {
+	color: #783D19;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 20px;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #CCA353;
+	margin-bottom: 30px;
+	margin-right: 300px;
+}
+.single_grand_hall_column_right p {
+	font-size: 14px;
+	line-height: 24px;
+}
+.single_grand_hall_column_right h3 {
+	color: #783D19;
+	font-size: 16px;
+	margin-top: 35px;
+	margin-bottom: 17px;
+}
+.single_grand_hall_column_right ul{}
+.single_grand_hall_column_right ul li {
+	font-size: 13px;
+	line-height: 24px;
+	padding-bottom: 15px;
+	margin-bottom: 11px;
+	border-bottom: 1px solid #E5E5E5;
+}
+.single_grand_hall_column_right ul li:last-child{
+	border-bottom: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+/*Grand Hall page middle section CSS End*/

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+
+	<!--Slider Java script-->
+	<script type="text/javascript">
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if (n > x.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+	     x[i].style.display = "none";  
+	  }
+	  x[slideIndex-1].style.display = "block";  
+	}
+	</script>
+	<!--Slider Java script-->
+
+		<title>Hotel Servicing System</title>
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<!--<link rel="stylesheet" href="css/slider.css">-->
+		<link rel="stylesheet" href="main.css"/>
+	</head>
+
+	<body>
+		<!--Header Section Start-->
+		<div class="full head_section_bg clear">
+			<div class="wrapper clear">
+				<div class="head_section clear">
+					<div class="logo clear">
+						<img src="images/logo.png" alt="logo"/>
+						<h2>Hotel Demo Grand</h2>
+					</div>
+					<div class="time clear">
+						<ul>
+							<li>
+								<span style="color:#AEA340; font-size: 14px; margin-bottom: 10px;">Local Time</span>
+								
+								<div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+
+							</li>
+							<li>
+								<span style="color:#AEA340; font-size: 14px; margin-bottom: 10px;">Local Temparature</span>
+								<span>Temparture will go here</span>
+							</li>
+							<li>
+								<span><i class="fa fa-phone-square call" style="color:white;"></i></span>
+								<span>+8801777777777</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Header Section End-->
+
+		<!--Menu Section Start-->
+		<div class="full menu_bg clear">
+			<div class="wrapper clear">
+				<div class="menu clear">
+					<ul>
+						<li id="active"><a href="index.html">Home</a></li>
+						<li><a href="room_suits.html">Rooms & Suites</a></li>
+						<li><a href="services.html">Our Services</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="meeting.html">Meeting & Events</a></li>
+						<li><a href="#">Dining Pleasures</a></li>
+						<li><a href="grand_hall.html">Grand Hall</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--Menu Section Start-->
+
+		<!--Banner Section Start-->
+		<div class="full banner_section_bg w3-container clear">
+			
+				<div class="banner_section mySlides clear">
+					<img src="images/slide2.jpg" alt="image"/>
+				</div>
+				<div class="banner_section mySlides clear">
+					<img src="images/slide5.jpg" alt="image"/>
+				</div>
+				<div class="banner_section mySlides clear">
+					<img src="images/slide7.jpg" alt="image"/>
+				</div>
+				<div class="banner_section mySlides clear">
+					<img src="images/slide8.jpg" alt="image"/>
+				</div>
+
+				<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+			
+		</div>
+		<div class="full booking_form_bg clear">
+			<div class="booking_form clear">
+				<ul>
+					<li><p>Check In</p><input type="text"/></li>
+					<li><p>Check Out</p><input type="text"/></li>
+					<li><p>Check Rooms</p><input type="text"/></li>
+					<li><p>Check Promo Code</p><input type="password"/></li>
+					<li><input type="submit" value="BOOK NOW"></li>
+				</ul>
+			</div>
+		</div>
+		<!--Banner Section End-->
+
+		<!--Home About Section Start-->
+		<div class="full about_section_bg clear">
+			<div class="wrapper clear">
+				<div class="about_section clear">
+					<h2>"About Hotel Aqsa Grand"</h2>
+					<p> 
+						Lorem ipsum dolor sit amet, viverra pede accumsan tincidunt, aliquam tincidunt iaculis, tempus ut auctor mus potenti mauris. Malesuada vestibulum dapibus, metus aliquet, non aliquet, ipsum sit lectus fames mauris. Eu ullamcorper urna, leo velit. Proin id ac fermentum nullam, eget nonummy et consequat ultricies neque wisi, inceptos vel amet, pellentesque turpis, lacinia amet quis tellus in. Tellus nulla, vitae integer ornare ac.
+
+						Eleifend adipiscing leo excepteur voluptatem neque, optio venenatis voluptatem, eros laoreet ipsum euismod integer amet mauris, ac donec nunc placerat ipsum sed, velit justo mus arcu. Fringilla eget vulputate ligula donec, erat aliquet voluptates ac quam odio integer, id ac nibh. Lobortis pede, ante orci wisi porttitor proin in porttitor, habitasse velit ac. Mauris nunc in posuere non massa, eu a odio tincidunt, eget pede condimentum viverra turpis, nullam per lorem sit enim cras sociis, sed egestas faucibus mauris. Cras venenatis, arcu aliquam ac tristique donec quam. Urna at etiam, eu semper sapien, tristique magna mi eget dui nulla, pulvinar luctus, scelerisque adipiscing eget ipsum.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!--Home About Section End-->
+
+		<!--Home Gallery Section Start-->
+		<div class="full luxury_room_section_bg clear">
+			<div class="wrapper clear">
+				<div class="luxury_room_section clear">
+					
+						<div class="single_luxury_room clear">
+							<img src="images/boutique.jpg" alt="image"/>
+							<h2>BOUTIQUE ROOM</h2>
+							<p>Lorem ipsum dolor sit amet</p>
+						</div>
+						<div class="single_luxury_room clear">
+							<img src="images/executive_double.jpg" alt="image"/>
+							<h2>BOUTIQUE ROOM</h2>
+							<p>Lorem ipsum dolor sit amet</p>
+						</div>
+						<div class="single_luxury_room row1_margin0 clear">
+							<img src="images/executive_twin.jpg" alt="image"/>
+							<h2>BOUTIQUE ROOM</h2>
+							<p>Lorem ipsum dolor sit amet</p>
+						</div>
+						<div class="single_luxury_room clear">
+							<img src="images/family_suite.jpg" alt="image"/>
+							<h2>BOUTIQUE ROOM</h2>
+							<p>Lorem ipsum dolor sit amet</p>
+						</div>
+						<div class="single_luxury_room clear">
+							<img src="images/grand_suite.jpg" alt="image"/>
+							<h2>BOUTIQUE ROOM</h2>
+							<p>Lorem ipsum dolor sit amet</p>
+						</div>
+						<div class="single_luxury_room row2_margin0 clear">
+							<img src="images/premier_double.jpg" alt="image"/>
+							<h2>BOUTIQUE ROOM</h2>
+							<p>Lorem ipsum dolor sit amet</p>
+						</div>
+					
+						<div class="single_luxury_room row3_margin0 clear">
+							<img src="images/premier_twin1.jpg" alt="image"/>
+							<h2>BOUTIQUE ROOM</h2>
+							<p>Lorem ipsum dolor sit amet</p>
+						</div>
+				</div>
+			</div>
+		</div>
+		<!--Home Gallery Section End-->
+
+		<!--Home Offer Section Start-->
+		<div class="full offer_background_bg clear">
+			<div class="wrapper clear">
+				<div class="offer_background clear">
+					<h2>SPECIAL OFFER</h2>
+				</div>
+			</div>
+		</div>
+		<!--Home Offer Section End-->
+
+		<!--Home Services summery Section Start-->
+		<div class="full service_section_summery_bg clear">
+			<div class="wrapper clear">
+				<div class="service_section_summery clear">
+					<div class="service_photo clear">
+						<img src="images/overview.jpg"/>
+					</div>
+					<div class="setvice_summery clear">
+						<h2>ABOUT OUR SEVICEs</h2>
+						<p>Soaring high above downtown Sylhet,Hotel Noorjahan Grand is an iconic landmark that offers the ultimate luxury in accommodation. Proposing a unique lifestyle experience,the hotel promises to offer nothing less than excellent service. Whether it is business or pleasure that brings you to town, our hotel address is centrally located to all major tourist attractions. Within 5mins walking distance to the top attraction of the city-Hazrat Shahjalal Mazar, our hotel is the perfect place to call home while discovering the very best this city has to offer. Our room’s chic modern style offers the amenities and style desired by business and leisure guests alike. Decorated to reflect the sophistication with wallpapers in sumptuous textures and crisp white bed linens, it is your sleek hideaway in the city. Rooms of understated elegance feature a generous workstation, crocodile leather sofas, 32-inch flat-screen TV, electronic safe,bed side charging station, coffee maker, and a fully-stocked mini bar. The elegant bathroom features a clean-lined washstand, a combination of Italian granite & tile surfaces and a separate step-in shower . WiFi is accessible for free in the hotel premises.</p><br/><br/>
+						<p>We welcome you to witness our unparalleled luxury !!!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Home Services summery Section End-->
+
+		<!--Lower Menu Section Start-->
+		<div class="full lower_section_menu_bg clear">
+			<div class="wrapper clear">
+				<div class="lower_section_menu clear">
+					<ul>
+						<li id="active"><a href="index.html">Home</a></li>
+						<li><a href="room_suits.html">Rooms & Suites</a></li>
+						<li><a href="services.html">Our Services</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="meeting.html">Meeting & Events</a></li>
+						<li><a href="#">Dining Pleasures</a></li>
+						<li><a href="grand_hall.html">Grand Hall</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--Lower Menu Section End-->
+
+		<!--Home Contact summery Section Start-->
+		<div class="full contact_summery_bg clear">
+			<div class="wrapper clear">
+				<div class="contact_summery clear">
+					<div class="map clear">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14478.070154894462!2d91.89140126977537!3d24.880322449999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1575059748841!5m2!1sen!2sbd" width="585" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+					<div class="contact_info clear">
+						<h2>Hotel Demo Grand</h2>
+						<ul>
+							<li>Address: Waves 1, Ritz Tower, Dargah Gate, Sylhet, Bangladesh</li>
+							<li>Tel: +8801930 111 666</li>
+							<li>E-mail: noorjahangrand@gmail.com</li>
+						</ul>
+						<span style="display: inline-block; padding: 10px 15px;
+
+								background-color:
+								#CCA353;
+								border-radius: 18px;
+								margin-right: 10px;
+								margin-top: 10px;
+								cursor: pointer;
+								color:#63512D;">
+										
+								<i class="fa fa-facebook"></i>
+						</span>
+						<span style="display: inline-block; padding: 10px 15px;
+
+								background-color:
+								#CCA353;
+								border-radius: 18px;
+								margin-right: 10px;
+								margin-top: 10px;
+								cursor: pointer;
+								color:#63512D;">
+										
+								<i class="fa fa-twitter"></i>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Home Contact summery Section End-->
+
+		<!--Footer Section Start-->
+		<div class="full footer_section_bg clear">
+			<div class="wrapper clear">
+				<div class="footer_section clear">
+					<p>
+						Copyright © 2019 Designed by team rock
+					</p>
+				</div>
+			</div>
+		</div>
+		<!--Footer Section End-->
+
+
+			<script type="text/javascript">
+
+				function showTime(){
+		    var date = new Date();
+		    var h = date.getHours(); // 0 - 23
+		    var m = date.getMinutes(); // 0 - 59
+		    var s = date.getSeconds(); // 0 - 59
+		    var session = "AM";
+		    
+		    if(h == 0){
+		        h = 12;
+		    }
+		    
+		    if(h > 12){
+		        h = h - 12;
+		        session = "PM";
+		    }
+		    
+		    h = (h < 10) ? "0" + h : h;
+		    m = (m < 10) ? "0" + m : m;
+		    s = (s < 10) ? "0" + s : s;
+		    
+		    var time = h + ":" + m + ":" + s + " " + session;
+		    document.getElementById("MyClockDisplay").innerText = time;
+		    document.getElementById("MyClockDisplay").textContent = time;
+		    
+		    setTimeout(showTime, 1000);
+		    
+		}
+
+		showTime();
+
+	</script>
+
+	<script type="text/javascript">
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  if (n > x.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+	     x[i].style.display = "none";  
+	  }
+	  x[slideIndex-1].style.display = "block";  
+	}
+	</script>
+
+
+
+	</body>
+</html>
+
+
+
+<!--
+
+<div class="full clear">
+	<div class="wrapper clear">
+		
+	</div>
+</div>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+-->

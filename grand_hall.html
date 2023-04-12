@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<title>Hotel Servicing System</title>
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>		
+		<link rel="stylesheet" href="css/slider.css"/>
+		<link rel="stylesheet" href="main.css"/>
+	</head>
+
+	<body>
+		<div class="full head_section_bg clear">
+			<div class="wrapper clear">
+				<div class="head_section clear">
+					<div class="logo clear">
+						<img src="images/logo.png" alt="logo"/>
+						<h2>Hotel Demo Grand</h2>
+					</div>
+					<div class="time clear">
+						<ul>
+							<li>
+								<span style="color:#AEA340; font-size: 14px; margin-bottom: 10px;">Local Time</span>
+								
+								<div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+							</li>
+							<li>
+								<span style="color:#AEA340; font-size: 14px; margin-bottom: 10px;">Local Temparature</span>
+								<span>Temparture will go here</span>
+							</li>
+							<li>
+								<span><i class="fa fa-phone-square call" style="color:white;"></i></span>
+								<span>+8801777777777</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="full menu_bg clear">
+			<div class="wrapper clear">
+				<div class="menu clear">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="room_suits.html">Rooms & Suites</a></li>
+						<li><a href="services.html">Our Services</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="meeting.html">Meeting & Events</a></li>
+						<li><a href="#">Dining Pleasures</a></li>
+						<li id="active"><a href="grand_hall.html">Grand Hall</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="full second_banner_section_bg clear">
+			<div class="wrapper clear">
+				<div class="second_banner_section clear">
+					<h1>Grand Hall</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="full booking_form_bg_others clear">
+			<div class="booking_form_others clear">
+				<ul>
+					<li><p>Check In</p><input type="text"/></li>
+					<li><p>Check Out</p><input type="text"/></li>
+					<li><p>Check Rooms</p><input type="text"/></li>
+					<li><p>Check Promo Code</p><input type="password"/></li>
+					<li><input type="submit" value="BOOK NOW"></li>
+				</ul>
+			</div>
+		</div>
+
+		<!--Grand Hall Middle Section start-->
+		<div class="full grand_hall_bg clear">
+			<div class="wrapper clear">
+				<div class="grand_hall clear">
+
+					<!-- Slider of grand hall page start-->
+					<div class="single_grand_hall_column_left w3-content clear">
+						<img class="mySlides" src="images/slide7.jpg" style="display:none;" alt="image"/>
+						<img class="mySlides" src="images/slide2.jpg" alt="image"/>
+						<img class="mySlides" src="images/slide8.jpg" style="display:none;" alt="image"/>
+
+						<div class="w3-row-padding w3-section">
+						    <div class="w3-col s4">
+						      <img class="demo w3-opacity w3-hover-opacity-off" src="images/slide7.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+						    </div>
+						    <div class="w3-col s4">
+						      <img class="demo w3-opacity w3-hover-opacity-off" src="images/slide2.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+						    </div>
+						    <div class="w3-col s4">
+						      <img class="demo w3-opacity w3-hover-opacity-off" src="images/slide8.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+						    </div>
+						</div>
+
+					</div>
+					<!-- Slider of grand hall page End-->
+
+					<div class="single_grand_hall_column_right clear">
+						<h2>Room Detail</h2>
+						<p>The Grand Hall Spacious to say the least, at over 3500 sqft. situated on 14th Floor, which can be partitioned into 2 halls – Grand Hall and Hall A; The Grand Hall itself can be arranged for all kinds of events such as Weddings, Exhibitions, Product Showcase, Meetings, Conferences, Catering and Banqueting occasions.</p>
+
+						<h3>Why do we fit for your events?</h3>
+						<ul>
+							<li> With the large area at over 3500sqft. the Sit-Down Dinner , Set Dinner or Buffet can be served 25 tables and possible more.</li>
+							<li> Fully Air Conditioned hallroom with expensive Red Carpet with state of the art multimedia facilities.</li>
+							<li> Real Time Power back up so that you do not miss a single moment</li>
+							<li> With the large area at over 3500sqft. the Sit-Down Dinner , Set Dinner or Buffet can be served 25 tables and possible more.</li>
+							<li> With the large area at over 3500sqft. the Sit-Down Dinner , Set Dinner or Buffet can be served 25 tables and possible more.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+			<!--Grand Hall Middle Section End-->
+		
+
+
+		
+		<div class="full lower_section_menu_bg clear">
+			<div class="wrapper clear">
+				<div class="lower_section_menu clear">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="room_suits.html">Rooms & Suites</a></li>
+						<li><a href="services.html">Our Services</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="meeting.html">Meeting & Events</a></li>
+						<li><a href="#">Dining Pleasures</a></li>
+						<li id="active"><a href="grand_hall.html">Grand Hall</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="full contact_summery_bg clear">
+			<div class="wrapper clear">
+				<div class="contact_summery clear">
+					<div class="map clear">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14478.070154894462!2d91.89140126977537!3d24.880322449999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1575059748841!5m2!1sen!2sbd" width="585" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+					<div class="contact_info clear">
+						<h2>Hotel Demo Grand</h2>
+						<ul>
+							<li>Address: Waves 1, Ritz Tower, Dargah Gate, Sylhet, Bangladesh</li>
+							<li>Tel: +8801930 111 666</li>
+							<li>E-mail: noorjahangrand@gmail.com</li>
+						</ul>
+
+						<span style="display: inline-block; padding: 10px 15px;
+
+								background-color:
+								#CCA353;
+								border-radius: 18px;
+								margin-right: 10px;
+								margin-top: 10px;
+								cursor: pointer;
+								color:#63512D;">
+										
+								<i class="fa fa-facebook"></i>
+						</span>
+						<span style="display: inline-block; padding: 10px 15px;
+
+								background-color:
+								#CCA353;
+								border-radius: 18px;
+								margin-right: 10px;
+								margin-top: 10px;
+								cursor: pointer;
+								color:#63512D;">
+										
+								<i class="fa fa-twitter"></i>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="full footer_section_bg clear">
+			<div class="wrapper clear">
+				<div class="footer_section clear">
+					<p>
+						Copyright © 2019 Designed by team rock
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+
+		<script>
+			function currentDiv(n) {
+			  showDivs(slideIndex = n);
+			}
+
+			function showDivs(n) {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("demo");
+			  if (n > x.length) {slideIndex = 1}
+			  if (n < 1) {slideIndex = x.length}
+			  for (i = 0; i < x.length; i++) {
+			    x[i].style.display = "none";
+			  }
+			  for (i = 0; i < dots.length; i++) {
+			    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+			  }
+			  x[slideIndex-1].style.display = "block";
+			  dots[slideIndex-1].className += " w3-opacity-off";
+			}
+		</script>
+
+
+
+		<script type="text/javascript">
+
+				function showTime(){
+		    var date = new Date();
+		    var h = date.getHours(); // 0 - 23
+		    var m = date.getMinutes(); // 0 - 59
+		    var s = date.getSeconds(); // 0 - 59
+		    var session = "AM";
+		    
+		    if(h == 0){
+		        h = 12;
+		    }
+		    
+		    if(h > 12){
+		        h = h - 12;
+		        session = "PM";
+		    }
+		    
+		    h = (h < 10) ? "0" + h : h;
+		    m = (m < 10) ? "0" + m : m;
+		    s = (s < 10) ? "0" + s : s;
+		    
+		    var time = h + ":" + m + ":" + s + " " + session;
+		    document.getElementById("MyClockDisplay").innerText = time;
+		    document.getElementById("MyClockDisplay").textContent = time;
+		    
+		    setTimeout(showTime, 1000);
+		    
+		}
+
+		showTime();
+
+	</script>
+
+	</body>
+</html>
+
+
+
+<!--
+
+<div class="full clear">
+	<div class="wrapper clear">
+		
+	</div>
+</div>
+
+-->
